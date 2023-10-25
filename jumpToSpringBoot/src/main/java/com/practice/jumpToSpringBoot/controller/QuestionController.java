@@ -31,6 +31,7 @@ public class QuestionController {
         return "question_list";
     }
 
+
     //id 질문 조회
     @GetMapping("question/detail/{id}")
     public String questionDetail(@PathVariable Long id,Model model){
@@ -42,6 +43,5 @@ public class QuestionController {
         else{
             return "question_list";
         }
-
     }
 }
