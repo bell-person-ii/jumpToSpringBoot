@@ -42,5 +42,6 @@ public class QuestionController {
         else{
             return "question_list";
         }
+
     }
 }
